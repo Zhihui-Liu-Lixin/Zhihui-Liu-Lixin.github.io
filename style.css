@@ -1,0 +1,119 @@
+html{
+    font-family: "Microsoft JhengHei", serif
+}
+
+html > body{
+    width: 1050px;
+    height: 1485px;
+}
+
+a{
+    color: #1F4E79;
+}
+
+#page_region{
+    position: relative;
+    left: 1%;
+    top: 1%;
+    width: 98%;
+    height: 98%;
+    background: white;
+}
+
+#title_block{
+    width: 100%;
+    height: 15%;
+    background: #BDD6EE;
+}
+
+#photo{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+#photo-inner{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+}
+
+#name{
+    position: relative;
+    float: left;
+    left: 5%;
+    height: 100%;
+    width: 35%;
+}
+
+#name-inner{
+    text-align: left;
+    position: relative;
+    top: 60%;
+    height: 20%;
+    font-size: 30px;
+    color: #1F4E79;
+}
+
+#personal_info{
+    float: left;
+    position: relative;
+    left: 10%;
+    width: 35%;
+    height: 100%;
+    background: #1F4E79;
+}
+
+#personal_info_inner{
+    position: relative;
+    left: 10%;
+    top: 5%;
+    height: 90%;
+    width: 100%;
+    color: white;
+}
+
+#content{
+    width: 100%;
+    height: 83%;
+    border-color: #1F4E79;
+}
+
+.item_key{
+    width: 30%;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.item_key_inner{
+    position: relative;
+    height: 80%;
+    width: 80%;
+    font-size: 30px;
+}
+
+.item_value{
+    width: 70%;
+    color: #1F4E79;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.item_value_inner{
+    position: relative;
+    height: 90%;
+    width: 100%;
+}
+
+.item_value_inner > h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tail{
+    height: 2%;
+    background: #1F4E79;
+}
